@@ -72,7 +72,7 @@ const TableHead = () => {
 };
 
 const TableRow = ({
-  cusTd,
+  cusId,
   sku,
   date,
   price,
@@ -91,7 +91,7 @@ const TableRow = ({
           href="#"
           className="text-violet-600 underline flex items-center gap-1"
         >
-          {cusTd} <FiArrowUpRight />
+          {cusId} <FiArrowUpRight />
         </a>
       </td>
       <td className="p-1.5">{sku}</td>
